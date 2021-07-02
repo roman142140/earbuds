@@ -22,7 +22,7 @@ function ShortDescription(props){
 				{props.earbudsData.map((e,i)=>createShortDesctiptionContent(e,i,props.currentIndex))}
 			</div>
 			<Btn
-				text="heeelo"
+				text="Watch More"
 				onClick={props.handleDepthIn}
 			/>
 		</div>
