@@ -1,0 +1,25 @@
+.btn{
+	font-size: 20px;
+	font-weight: 600;
+	cursor: pointer;
+	position: relative;
+}
+.btn:first-letter{
+	display: inline-block;
+	text-transform: uppercase;
+
+}
+.btn:after{
+	content: '';
+	display: block;
+	width: 0%;
+	height: 2px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: 0.5s;
+	background: #000;
+}
+.btn:hover:after{
+	width: 100%;
+}

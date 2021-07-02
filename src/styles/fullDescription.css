@@ -1,0 +1,17 @@
+.full-description{
+	width: 700px;
+	margin-top: 50px;
+	float: right;
+}
+.full-description__box{
+
+}
+.full-description__box-item{
+
+}
+.full-description__text-field{
+	display: flex;
+}
+.full-description__text-field p{
+	margin-right: 10px;
+}

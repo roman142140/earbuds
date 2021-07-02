@@ -1,0 +1,23 @@
+.short-description{
+	//margin: 10px;
+	width: 340px;
+}
+.short-description__box{
+	position: relative;
+	height: 200px;
+}
+.short-description__box-item{
+	position: absolute;
+	bottom: 0;
+	transition: 1s;
+	transform: translateY(-50px);
+	opacity: 0;
+}
+.short-description__box-item--current{
+	transform: translateY(0);
+	opacity: 1;
+}
+.short-description__box-item--current~.short-description__box-item{
+	transform: translateY(50px);
+	opacity: 0;
+}

@@ -1,0 +1,31 @@
+.top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.top__logo{
+	font-size: 30px;
+	font-weight: bold;
+}
+.top__menu{
+	position: relative;
+}
+.top__menu-list{
+	transition: 1s;
+	padding: 20px;
+}
+.top__back-button{
+	transition: 1s;
+	position: absolute;
+	padding: 20px;
+	right: 0;
+	top: 0;
+}
+.top__back-button,
+.top__menu-list-item{
+	display: inline-block;
+	margin-left: 30px;
+}
+.top__menu-list-item:nth-child(1){
+	margin-left: 0;
+}

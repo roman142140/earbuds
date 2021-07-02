@@ -1,0 +1,38 @@
+.earbuds{
+	display: flex;
+	align-items: center;
+	height: 800px;
+}
+.earbuds__short-description{
+	flex-basis: 400px;
+	opacity: 1;
+	transition: 1s;
+	overflow: hidden;
+}
+.earbuds__image-galery{
+	flex-grow: 1;
+	flex-shrink:0;
+	transition: 1s;
+	height: 100%;
+}
+.earbuds__full-description{
+	flex-basis: 0px;
+	flex-shrink: 1;
+	opacity: 0;
+	transition: 1s;
+	align-self: flex-start;
+	position: relative;
+	overflow: hidden;
+}
+.earbuds--more .earbuds__short-description{
+	flex-basis: 0px;
+	flex-shrink: 1;
+	opacity: 0;
+}
+.earbuds--more .earbuds__image-galery{
+	pointer-events: none;
+}
+.earbuds--more .earbuds__full-description{
+	flex-basis: 900px;
+	opacity: 1;
+}
